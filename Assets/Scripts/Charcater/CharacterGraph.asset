@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: CharacterGraph
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-53.0,"y":166.4834},"zoom":1.0,"elements":[{"type":"Character","instance":true,"static":true,"defaultValues":{"target":null},"position":{"x":-383.0,"y":158.0},"guid":"3e546a6c-efdd-413a-88b8-b84ba6e88e38","$version":"A","$type":"Unity.VisualScripting.Expose","$id":"9"},{"type":"AddMovementInputController","instance":true,"static":true,"defaultValues":{"target":null},"position":{"x":-389.0,"y":-266.0},"guid":"85c527ca-fcd8-40f2-9188-2444996578d6","$version":"A","$type":"Unity.VisualScripting.Expose","$id":"11"},{"defaultValues":{"Move
+      Speed":{"$content":0.0,"$type":"System.Single"},"Direction":{"x":1.0,"y":0.0,"$type":"UnityEngine.Vector2"}},"position":{"x":48.0,"y":182.0},"guid":"15546f0f-e4d3-4c5c-b2a7-b2a41928a99e","$version":"A","$type":"MoveNode","$id":"13"},{"coroutine":false,"defaultValues":{},"position":{"x":41.0,"y":-42.0},"guid":"eed65312-2108-482b-b076-80b6724e2d71","$version":"A","$type":"Unity.VisualScripting.FixedUpdate","$id":"15"},{"defaultValues":{},"position":{"x":-21.0,"y":365.0},"guid":"77e83809-7814-4d29-a8d4-1f56c338e9bf","$version":"A","$type":"Unity.VisualScripting.GenericMultiply","$id":"17"},{"member":{"name":"deltaTime","parameterTypes":null,"targetType":"UnityEngine.Time","targetTypeName":"UnityEngine.Time","$version":"A"},"defaultValues":{},"position":{"x":-84.0,"y":499.0},"guid":"5ac2f08a-89dd-4c94-a1a1-d31eba963293","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"19"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"","guid":"3582c27e-91e6-4a3d-a08a-102e1b3553aa","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"MoveSpeed","destinationUnit":{"$ref":"13"},"destinationKey":"Move
+      Speed","guid":"8be25781-cc5e-4f0e-bbf7-b20079894641","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"RigidBodi2D","destinationUnit":{"$ref":"13"},"destinationKey":"RigidBody2D","guid":"45827941-55db-4268-a22a-d9f5caab5bfa","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"b","guid":"9244a5b8-4bc7-4d75-93ac-3691ab639da6","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Direction","destinationUnit":{"$ref":"17"},"destinationKey":"a","guid":"0e883e39-93dc-4711-a3ee-670dbc7252b1","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"product","destinationUnit":{"$ref":"13"},"destinationKey":"Direction","guid":"ecc933b5-df2c-4c0e-8e4b-a4134ebdef13","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
